@@ -1,0 +1,51 @@
+body{
+    background-color: #25282A;
+}
+
+.main{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.slider{
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slider-all{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    margin-top: 25px;
+    height: 100%;
+}
+.footer-navigation{
+    display: flex;
+}
+
+.footer-navigation-button{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-navigation-button:hover .footer-navigation-button-circle{
+    border-color: white;
+    background-color: white;
+}
+
+.footer-navigation-button-circle{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #74A2E4;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.footer-meme-text{
+    flex-grow: 1;
+    color: white;
+}
