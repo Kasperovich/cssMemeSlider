@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CssMemeSlider</title>
+
+</head>
+<body>
+    <div class="main">
+        <div class="slider">
+            <div class="slider-all">
+                <div>
+                    <img class="slider-all-item" src="img/meme1.jpg" alt="meme1">
+                    <p class="meme-text">То самое чувство</p>
+                </div>
+                <div>
+                    <img class="slider-all-item" src="img/meme2.jpg" alt="meme2">
+                    <p class="meme-text">когда самое сложное</p>
+                </div>
+                <div>
+                    <img class="slider-all-item" src="img/meme3.jpg" alt="meme3">
+                    <p class="meme-text">при выполнении таска MemeSlider</p>
+                </div>
+                <div>
+                    <img class="slider-all-item" src="img/meme4.jpg" alt="meme4">
+                    <p class="meme-text">это выбор смешных мемов</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-text"></div>
+            <div class="footer-navigation">
+                <div class="footer-navigation-button" onclick="(function() { ChangeSlide(0);})()">
+                    <div class="footer-navigation-button-circle circle"></div>
+                </div>
+                <div class="footer-navigation-button" onclick="(function() { ChangeSlide(1);})()">
+                    <div class="footer-navigation-button-circle circle"></div>
+                </div>
+                <div class="footer-navigation-button" onclick="(function() { ChangeSlide(2);})()">
+                    <div class="footer-navigation-button-circle circle"></div>
+                </div>
+                <div class="footer-navigation-button" onclick="(function() { ChangeSlide(3);})()">
+                    <div class="footer-navigation-button-circle circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
