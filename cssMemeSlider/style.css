@@ -22,11 +22,17 @@ body{
 
 .footer{
     display: flex;
-    margin-top: 25px;
-    height: 100%;
+    margin-top: -35px;
 }
+
+.footer-text{
+    flex-grow: 1;
+}
+
 .footer-navigation{
     display: flex;
+    z-index: 1;
+    background-color: #25282A;
 }
 
 .footer-navigation-button{
@@ -37,6 +43,10 @@ body{
 .footer-navigation-button:hover .footer-navigation-button-circle{
     border-color: white;
     background-color: white;
+}
+
+.footer-navigation-button:hover .footer-navigation-button-circle1{
+    border-color: white;
 }
 
 .footer-navigation-button-circle{
@@ -59,7 +69,7 @@ body{
     margin-top: 3px;
 }
 
-.footer-meme-text{
-    flex-grow: 1;
+.meme-text{
     color: white;
+
 }

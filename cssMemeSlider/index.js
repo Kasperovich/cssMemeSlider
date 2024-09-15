@@ -1,3 +1,7 @@
+ChangeSlide(0);
+activeButton(0)
+imageResize();
+
 function ChangeSlide(memeNumber){
     var slider = document.getElementsByClassName('slider-all')[0];
 
@@ -8,7 +12,7 @@ function ChangeSlide(memeNumber){
 function imageResize(){
     //Получаем блок слайдера
     var sliderAll = document.getElementsByClassName('slider-all')[0];
-    var sliderItems = document.getElementsByClassName('slider-all-img');
+    var sliderItems = document.getElementsByClassName('slider-all-item');
 
     //Изменение ширины изображения согласно ширине слайдера 
     Array.from(sliderItems).forEach(item=>{
@@ -35,5 +39,6 @@ function activeButton(memeNumber){
 
 window.addEventListener('resize', function() {
     ChangeSlide(0);
+    activeButton(0)
     imageResize();
 });
